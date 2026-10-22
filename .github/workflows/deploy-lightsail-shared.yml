@@ -30,6 +30,18 @@ name: deploy-lightsail-shared
 # - HITPAY_API_KEY
 # - HITPAY_WEBHOOK_SALT
 # - HITPAY_MPP_ENDPOINT
+#
+# Optional Stellar playground security (disabled by default for production):
+# - MAIN_BFF_STELLAR_PLAYGROUND_ENABLED (defaults to false)
+# - MAIN_BFF_STELLAR_PLAYGROUND_API_KEY
+# - MAIN_BFF_PLAYGROUND_MAX_REQUESTS_PER_HOUR (defaults to 10)
+# - MAIN_BFF_PLAYGROUND_MAX_REQUESTS_PER_DAY (defaults to 50)
+# - MAIN_DEMO_AGENT_SECRET
+# - DEVELOP_BFF_STELLAR_PLAYGROUND_ENABLED (defaults to false)
+# - DEVELOP_BFF_STELLAR_PLAYGROUND_API_KEY
+# - DEVELOP_BFF_PLAYGROUND_MAX_REQUESTS_PER_HOUR (defaults to 10)
+# - DEVELOP_BFF_PLAYGROUND_MAX_REQUESTS_PER_DAY (defaults to 50)
+# - DEVELOP_DEMO_AGENT_SECRET
 
 # Deploy layout on the instance:
 # - $HOME/apps/main/poc and $HOME/apps/main/data
